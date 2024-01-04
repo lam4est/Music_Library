@@ -1,0 +1,140 @@
+header {
+    background-color: #f8f8f8; 
+    padding: 10px;
+}
+
+
+.nav-item:hover {
+    background-color: #eee4fc;
+    color: white;
+}
+
+.nav-item2:hover {
+    background-color: #655a77;
+    color: white;
+}
+
+.nav-item.active {
+    background-color: #e5d7fc;
+    color: white;   
+}
+
+.nav-item {
+    text-align: center;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease; 
+}
+
+.nav-item2 {
+    padding: 10px;
+    text-align: center;
+    min-width: 80px;
+
+}
+
+.nav-item {
+    text-align: center;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.nav-item2 {
+    padding: 10px;
+    text-align: center; 
+    min-width: 80px;
+}
+
+/* dropdown */
+
+.dropdown:hover .dropdown-list {
+    display: block; 
+}
+
+.dropdown-list .nav-item2 {
+    background-color: #fff; 
+
+}
+
+.dropdown-list .nav-item2:hover {
+    background-color: #e6dafb; 
+
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-top: 10px; 
+}
+
+.dropdown-list .nav-item2 {
+    padding: 10px;
+    text-align: center;
+    min-width: 80px;
+    border-radius: 6px;
+    transition: all 0.3s ease; 
+}
+
+/* footer area */
+
+footer {
+    background-color: #444; 
+    color: white; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+footer a:hover {
+    transform: scale(1.1); 
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.btn_search{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #9656fd;
+    color: white;
+    border-radius: 6px;
+}
+
+footer {
+    transition: all 0.3s ease; 
+}
+
+.footer-div {
+    flex: 1;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+

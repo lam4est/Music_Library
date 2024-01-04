@@ -1,0 +1,80 @@
+footer {
+    background: #272727;
+    display: flex;
+    justify-content: space-between;
+    max-height: 30vh;
+    padding: 20px;
+    transition: ease .3s;
+}
+
+.company, .communities, .useful{
+    margin-left: 150px;
+}
+
+.contact .title h3,
+.contact .subtitle a {
+    transition: ease .3s;   
+}
+
+.contact .title h3:hover,
+.contact .subtitle a:hover {
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+
+/* social */
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    background: #444444;
+    border-radius: 100%;
+    margin: 0 10px;
+    transition: ease .3s;
+}
+
+.social > div > a > i {
+    padding: 10px;
+    color: #fff;
+}
+
+.social a.facebook:hover {
+    border: 1px solid blue;
+    background: blue;
+    transform: scale(1.1); 
+}
+
+.social a.insta:hover {
+    border: 1px solid palevioletred;
+    background: palevioletred;
+    transform: scale(1.1);
+}
+
+.social a.twitter:hover {
+    border: 1px solid royalblue;
+    background: royalblue;
+    transform: scale(1.1);
+}
+
+/* contact */
+.contact {
+    display: flex;
+}
+
+.contact > div.communities {
+    padding: 0 70px;
+}
+
+.contact .title {
+    color: #fff;
+}
+
+.contact .subtitle a {
+    color: #a8a8a8;
+}
